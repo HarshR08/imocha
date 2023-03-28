@@ -31,7 +31,7 @@ public class BaseClass {
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String br) {
-//test
+//tes
 		logger = Logger.getLogger("BaseClass.class");
 		PropertyConfigurator.configure("Log4j.properties");
 
