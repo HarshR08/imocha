@@ -9,6 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -36,7 +37,9 @@ public class BaseClass {
 
 		if(br.equals("chrome")) {
 			System.setProperty("driver.chrome.driver", readconfig.getChromePath());
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver(options);
 		}
 		else if (br.equals("firefox")) {
 			System.setProperty("driver.gecko.driver", readconfig.getFirefoxPath());
