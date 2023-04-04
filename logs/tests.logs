@@ -1,107 +1,107 @@
-08:31:27,571 DEBUG io.netty.util.internal.logging.InternalLoggerFactory :89 - Using Log4J as the default logging framework
-08:31:27,578 DEBUG io.netty.util.ResourceLeakDetector :129 - -Dio.netty.leakDetection.level: simple
-08:31:27,578 DEBUG io.netty.util.ResourceLeakDetector :130 - -Dio.netty.leakDetection.targetRecords: 4
-08:31:27,586 DEBUG io.netty.util.ResourceLeakDetectorFactory :196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@632ceb35
-08:31:27,610 DEBUG io.netty.util.internal.PlatformDependent0 :496 - -Dio.netty.noUnsafe: false
-08:31:27,610 DEBUG io.netty.util.internal.PlatformDependent0 :1000 - Java version: 19
-08:31:27,611 DEBUG io.netty.util.internal.PlatformDependent0 :137 - sun.misc.Unsafe.theUnsafe: available
-08:31:27,612 DEBUG io.netty.util.internal.PlatformDependent0 :161 - sun.misc.Unsafe.copyMemory: available
-08:31:27,613 DEBUG io.netty.util.internal.PlatformDependent0 :193 - sun.misc.Unsafe.storeFence: available
-08:31:27,615 DEBUG io.netty.util.internal.PlatformDependent0 :236 - java.nio.Buffer.address: available
-08:31:27,616 DEBUG io.netty.util.internal.PlatformDependent0 :320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-08:31:27,616 DEBUG io.netty.util.internal.PlatformDependent0 :385 - java.nio.Bits.unaligned: available, true
-08:31:27,618 DEBUG io.netty.util.internal.PlatformDependent0 :452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7e32c033
-08:31:27,619 DEBUG io.netty.util.internal.PlatformDependent0 :482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-08:31:27,620 DEBUG io.netty.util.internal.PlatformDependent :1159 - sun.misc.Unsafe: available
-08:31:27,633 DEBUG io.netty.util.internal.PlatformDependent :1270 - maxDirectMemory: 4227858432 bytes (maybe)
-08:31:27,634 DEBUG io.netty.util.internal.PlatformDependent :1289 - -Dio.netty.tmpdir: C:\Users\HARSHA~1\AppData\Local\Temp (java.io.tmpdir)
-08:31:27,634 DEBUG io.netty.util.internal.PlatformDependent :1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-08:31:27,634 DEBUG io.netty.util.internal.PlatformDependent :1119 - Platform: Windows
-08:31:27,635 DEBUG io.netty.util.internal.PlatformDependent :178 - -Dio.netty.maxDirectMemory: -1 bytes
-08:31:27,635 DEBUG io.netty.util.internal.PlatformDependent :185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-08:31:27,636 DEBUG io.netty.util.internal.CleanerJava9 :71 - java.nio.ByteBuffer.cleaner(): available
-08:31:27,637 DEBUG io.netty.util.internal.PlatformDependent :205 - -Dio.netty.noPreferDirect: false
-08:31:27,642 DEBUG io.netty.util.internal.PlatformDependent :1010 - org.jctools-core.MpscChunkedArrayQueue: available
-08:31:27,667 DEBUG io.netty.util.internal.InternalThreadLocalMap :86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-08:31:27,667 DEBUG io.netty.util.internal.InternalThreadLocalMap :89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-08:31:27,862 DEBUG io.netty.handler.ssl.JdkSslContext :83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-08:31:27,863 DEBUG io.netty.handler.ssl.JdkSslContext :84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-08:31:27,903 DEBUG io.netty.channel.MultithreadEventLoopGroup :44 - -Dio.netty.eventLoopThreads: 16
-08:31:27,916 DEBUG io.netty.channel.nio.NioEventLoop :110 - -Dio.netty.noKeySetOptimization: false
-08:31:27,916 DEBUG io.netty.channel.nio.NioEventLoop :111 - -Dio.netty.selectorAutoRebuildThreshold: 512
-08:31:27,990 DEBUG io.netty.buffer.PooledByteBufAllocator :157 - -Dio.netty.allocator.numHeapArenas: 16
-08:31:27,991 DEBUG io.netty.buffer.PooledByteBufAllocator :158 - -Dio.netty.allocator.numDirectArenas: 16
-08:31:27,991 DEBUG io.netty.buffer.PooledByteBufAllocator :160 - -Dio.netty.allocator.pageSize: 8192
-08:31:27,991 DEBUG io.netty.buffer.PooledByteBufAllocator :165 - -Dio.netty.allocator.maxOrder: 9
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :169 - -Dio.netty.allocator.chunkSize: 4194304
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :170 - -Dio.netty.allocator.smallCacheSize: 256
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :171 - -Dio.netty.allocator.normalCacheSize: 64
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :175 - -Dio.netty.allocator.useCacheForAllThreads: false
-08:31:27,992 DEBUG io.netty.buffer.PooledByteBufAllocator :176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-08:31:28,013 DEBUG io.netty.buffer.ByteBufUtil :87 - -Dio.netty.allocator.type: pooled
-08:31:28,013 DEBUG io.netty.buffer.ByteBufUtil :96 - -Dio.netty.threadLocalDirectBufferSize: 0
-08:31:28,013 DEBUG io.netty.buffer.ByteBufUtil :99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-08:31:28,377 DEBUG io.netty.channel.DefaultChannelId :79 - -Dio.netty.processId: 13848 (auto-detected)
-08:31:28,380 DEBUG io.netty.util.NetUtil :136 - -Djava.net.preferIPv4Stack: false
-08:31:28,381 DEBUG io.netty.util.NetUtil :137 - -Djava.net.preferIPv6Addresses: false
-08:31:28,391 DEBUG io.netty.util.NetUtilInitializations :129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-08:31:28,393 DEBUG io.netty.util.NetUtil :191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-08:31:28,415 DEBUG io.netty.channel.DefaultChannelId :101 - -Dio.netty.machineId: 60:a5:e2:ff:fe:5e:90:6b (auto-detected)
-08:31:28,526 DEBUG io.netty.buffer.AbstractByteBuf :63 - -Dio.netty.buffer.checkAccessible: true
-08:31:28,526 DEBUG io.netty.buffer.AbstractByteBuf :64 - -Dio.netty.buffer.checkBounds: true
-08:31:28,526 DEBUG io.netty.util.ResourceLeakDetectorFactory :196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7d24bfaa
-08:31:28,559 DEBUG io.netty.util.Recycler :85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-08:31:28,559 DEBUG io.netty.util.Recycler :86 - -Dio.netty.recycler.ratio: 8
-08:31:28,559 DEBUG io.netty.util.Recycler :87 - -Dio.netty.recycler.chunkSize: 32
-08:31:28,560 DEBUG io.netty.util.Recycler :88 - -Dio.netty.recycler.blocking: false
-08:31:29,299 DEBUG io.netty.handler.codec.compression.Brotli :38 - brotli4j not in the classpath; Brotli support will be unavailable.
-08:31:29,551 DEBUG io.netty.util.internal.ThreadLocalRandom :214 - -Dio.netty.initialSeedUniquifier: 0xa9d0db3ddc25bba1
-08:31:35,472  INFO BaseClass.class :16 - Url opened
-08:31:44,702  INFO BaseClass.class :28 - Login test passed
-08:31:44,971 DEBUG freemarker.cache :45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:44,972 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-08:31:44,974 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("index.ftl"): Found
-08:31:44,974 DEBUG freemarker.cache :45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-08:31:45,130 DEBUG freemarker.cache :45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,131 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-08:31:45,131 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("head.ftl"): Found
-08:31:45,132 DEBUG freemarker.cache :45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-08:31:45,136 DEBUG freemarker.cache :45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,136 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-08:31:45,137 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
-08:31:45,137 DEBUG freemarker.cache :45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-08:31:45,143 DEBUG freemarker.cache :45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,143 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-08:31:45,144 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-08:31:45,144 DEBUG freemarker.cache :45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-08:31:45,153 DEBUG freemarker.cache :45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,154 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-08:31:45,155 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-08:31:45,155 DEBUG freemarker.cache :45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-08:31:45,168 DEBUG freemarker.cache :45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,169 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-08:31:45,169 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-08:31:45,169 DEBUG freemarker.cache :45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-08:31:45,180 DEBUG freemarker.cache :45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,181 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-08:31:45,181 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-08:31:45,181 DEBUG freemarker.cache :45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-08:31:45,191 DEBUG freemarker.cache :45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,191 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
-08:31:45,191 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
-08:31:45,192 DEBUG freemarker.cache :45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
-08:31:45,195 DEBUG freemarker.cache :45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,196 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-08:31:45,197 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-08:31:45,197 DEBUG freemarker.cache :45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-08:31:45,201 DEBUG freemarker.cache :45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,201 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-08:31:45,202 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-08:31:45,202 DEBUG freemarker.cache :45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-08:31:45,212 DEBUG freemarker.cache :45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-08:31:45,213 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-08:31:45,213 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-08:31:45,213 DEBUG freemarker.cache :45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+12:15:15,427 DEBUG io.netty.util.internal.logging.InternalLoggerFactory :89 - Using Log4J as the default logging framework
+12:15:15,432 DEBUG io.netty.util.ResourceLeakDetector :129 - -Dio.netty.leakDetection.level: simple
+12:15:15,432 DEBUG io.netty.util.ResourceLeakDetector :130 - -Dio.netty.leakDetection.targetRecords: 4
+12:15:15,436 DEBUG io.netty.util.ResourceLeakDetectorFactory :196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@67545b57
+12:15:15,451 DEBUG io.netty.util.internal.PlatformDependent0 :496 - -Dio.netty.noUnsafe: false
+12:15:15,451 DEBUG io.netty.util.internal.PlatformDependent0 :1000 - Java version: 19
+12:15:15,452 DEBUG io.netty.util.internal.PlatformDependent0 :137 - sun.misc.Unsafe.theUnsafe: available
+12:15:15,453 DEBUG io.netty.util.internal.PlatformDependent0 :161 - sun.misc.Unsafe.copyMemory: available
+12:15:15,453 DEBUG io.netty.util.internal.PlatformDependent0 :193 - sun.misc.Unsafe.storeFence: available
+12:15:15,454 DEBUG io.netty.util.internal.PlatformDependent0 :236 - java.nio.Buffer.address: available
+12:15:15,454 DEBUG io.netty.util.internal.PlatformDependent0 :320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+12:15:15,455 DEBUG io.netty.util.internal.PlatformDependent0 :385 - java.nio.Bits.unaligned: available, true
+12:15:15,456 DEBUG io.netty.util.internal.PlatformDependent0 :452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7e32c033
+12:15:15,457 DEBUG io.netty.util.internal.PlatformDependent0 :482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+12:15:15,457 DEBUG io.netty.util.internal.PlatformDependent :1159 - sun.misc.Unsafe: available
+12:15:15,469 DEBUG io.netty.util.internal.PlatformDependent :1270 - maxDirectMemory: 4227858432 bytes (maybe)
+12:15:15,469 DEBUG io.netty.util.internal.PlatformDependent :1289 - -Dio.netty.tmpdir: C:\Users\HARSHA~1\AppData\Local\Temp (java.io.tmpdir)
+12:15:15,469 DEBUG io.netty.util.internal.PlatformDependent :1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:15:15,470 DEBUG io.netty.util.internal.PlatformDependent :1119 - Platform: Windows
+12:15:15,470 DEBUG io.netty.util.internal.PlatformDependent :178 - -Dio.netty.maxDirectMemory: -1 bytes
+12:15:15,470 DEBUG io.netty.util.internal.PlatformDependent :185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+12:15:15,471 DEBUG io.netty.util.internal.CleanerJava9 :71 - java.nio.ByteBuffer.cleaner(): available
+12:15:15,471 DEBUG io.netty.util.internal.PlatformDependent :205 - -Dio.netty.noPreferDirect: false
+12:15:15,476 DEBUG io.netty.util.internal.PlatformDependent :1010 - org.jctools-core.MpscChunkedArrayQueue: available
+12:15:15,490 DEBUG io.netty.util.internal.InternalThreadLocalMap :86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+12:15:15,490 DEBUG io.netty.util.internal.InternalThreadLocalMap :89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+12:15:15,623 DEBUG io.netty.handler.ssl.JdkSslContext :83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+12:15:15,623 DEBUG io.netty.handler.ssl.JdkSslContext :84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+12:15:15,642 DEBUG io.netty.channel.MultithreadEventLoopGroup :44 - -Dio.netty.eventLoopThreads: 16
+12:15:15,649 DEBUG io.netty.channel.nio.NioEventLoop :110 - -Dio.netty.noKeySetOptimization: false
+12:15:15,649 DEBUG io.netty.channel.nio.NioEventLoop :111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+12:15:15,690 DEBUG io.netty.buffer.PooledByteBufAllocator :157 - -Dio.netty.allocator.numHeapArenas: 16
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :158 - -Dio.netty.allocator.numDirectArenas: 16
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :160 - -Dio.netty.allocator.pageSize: 8192
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :165 - -Dio.netty.allocator.maxOrder: 9
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :169 - -Dio.netty.allocator.chunkSize: 4194304
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :170 - -Dio.netty.allocator.smallCacheSize: 256
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :171 - -Dio.netty.allocator.normalCacheSize: 64
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+12:15:15,691 DEBUG io.netty.buffer.PooledByteBufAllocator :175 - -Dio.netty.allocator.useCacheForAllThreads: false
+12:15:15,692 DEBUG io.netty.buffer.PooledByteBufAllocator :176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+12:15:15,697 DEBUG io.netty.buffer.ByteBufUtil :87 - -Dio.netty.allocator.type: pooled
+12:15:15,697 DEBUG io.netty.buffer.ByteBufUtil :96 - -Dio.netty.threadLocalDirectBufferSize: 0
+12:15:15,697 DEBUG io.netty.buffer.ByteBufUtil :99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:15:15,896 DEBUG io.netty.channel.DefaultChannelId :79 - -Dio.netty.processId: 6992 (auto-detected)
+12:15:15,897 DEBUG io.netty.util.NetUtil :136 - -Djava.net.preferIPv4Stack: false
+12:15:15,897 DEBUG io.netty.util.NetUtil :137 - -Djava.net.preferIPv6Addresses: false
+12:15:15,901 DEBUG io.netty.util.NetUtilInitializations :129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+12:15:15,903 DEBUG io.netty.util.NetUtil :191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+12:15:15,912 DEBUG io.netty.channel.DefaultChannelId :101 - -Dio.netty.machineId: 60:a5:e2:ff:fe:5e:90:6b (auto-detected)
+12:15:15,950 DEBUG io.netty.buffer.AbstractByteBuf :63 - -Dio.netty.buffer.checkAccessible: true
+12:15:15,950 DEBUG io.netty.buffer.AbstractByteBuf :64 - -Dio.netty.buffer.checkBounds: true
+12:15:15,950 DEBUG io.netty.util.ResourceLeakDetectorFactory :196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78475496
+12:15:15,963 DEBUG io.netty.util.Recycler :85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+12:15:15,964 DEBUG io.netty.util.Recycler :86 - -Dio.netty.recycler.ratio: 8
+12:15:15,964 DEBUG io.netty.util.Recycler :87 - -Dio.netty.recycler.chunkSize: 32
+12:15:15,964 DEBUG io.netty.util.Recycler :88 - -Dio.netty.recycler.blocking: false
+12:15:17,706 DEBUG io.netty.handler.codec.compression.Brotli :38 - brotli4j not in the classpath; Brotli support will be unavailable.
+12:15:20,309  INFO BaseClass.class :16 - Url opened
+12:15:31,282  INFO BaseClass.class :28 - Login test passed
+12:15:31,302 DEBUG io.netty.util.internal.ThreadLocalRandom :214 - -Dio.netty.initialSeedUniquifier: 0x2c5ff0d464b48f19
+12:15:31,945 DEBUG freemarker.cache :45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:31,946 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+12:15:31,947 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+12:15:31,947 DEBUG freemarker.cache :45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+12:15:32,050 DEBUG freemarker.cache :45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,051 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+12:15:32,051 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+12:15:32,051 DEBUG freemarker.cache :45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+12:15:32,053 DEBUG freemarker.cache :45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,054 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+12:15:32,054 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+12:15:32,055 DEBUG freemarker.cache :45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+12:15:32,059 DEBUG freemarker.cache :45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,059 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+12:15:32,060 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+12:15:32,060 DEBUG freemarker.cache :45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+12:15:32,070 DEBUG freemarker.cache :45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,070 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+12:15:32,071 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+12:15:32,071 DEBUG freemarker.cache :45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+12:15:32,080 DEBUG freemarker.cache :45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,081 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+12:15:32,081 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+12:15:32,081 DEBUG freemarker.cache :45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+12:15:32,090 DEBUG freemarker.cache :45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,090 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+12:15:32,090 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+12:15:32,090 DEBUG freemarker.cache :45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+12:15:32,092 DEBUG freemarker.cache :45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,092 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+12:15:32,093 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+12:15:32,093 DEBUG freemarker.cache :45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+12:15:32,095 DEBUG freemarker.cache :45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,096 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+12:15:32,096 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+12:15:32,099 DEBUG freemarker.cache :45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+12:15:32,101 DEBUG freemarker.cache :45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,101 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+12:15:32,102 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+12:15:32,102 DEBUG freemarker.cache :45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+12:15:32,107 DEBUG freemarker.cache :45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+12:15:32,107 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+12:15:32,107 DEBUG freemarker.cache :45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+12:15:32,108 DEBUG freemarker.cache :45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Harshal%20Rajguru/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

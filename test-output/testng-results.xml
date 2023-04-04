@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T08:31:25 IST" name="imocha" finished-at="2023-03-29T08:31:44 IST" duration-ms="19666">
+  <suite started-at="2023-04-04T12:15:13 IST" name="imocha" finished-at="2023-04-04T12:15:31 IST" duration-ms="18607">
     <groups>
     </groups>
-    <test started-at="2023-03-29T08:31:25 IST" name="imocha Test" finished-at="2023-03-29T08:31:44 IST" duration-ms="19666">
+    <test started-at="2023-04-04T12:15:13 IST" name="imocha Test" finished-at="2023-04-04T12:15:31 IST" duration-ms="18607">
       <class name="com.imocha.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.imocha.testCases.TC_LoginTest_001@2d7275fc]" started-at="2023-03-29T08:31:25 IST" name="setup" finished-at="2023-03-29T08:31:35 IST" duration-ms="9606" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.imocha.testCases.TC_LoginTest_001@2d7275fc]" started-at="2023-04-04T12:15:13 IST" name="setup" finished-at="2023-04-04T12:15:20 IST" duration-ms="6548" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.imocha.testCases.TC_LoginTest_001@2d7275fc]" started-at="2023-03-29T08:31:35 IST" name="loginTest" finished-at="2023-03-29T08:31:44 IST" duration-ms="9565" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.imocha.testCases.TC_LoginTest_001@2d7275fc]" started-at="2023-04-04T12:15:20 IST" name="loginTest" finished-at="2023-04-04T12:15:31 IST" duration-ms="11246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.imocha.testCases.TC_LoginTest_001@2d7275fc]" started-at="2023-03-29T08:31:44 IST" name="tearDown" finished-at="2023-03-29T08:31:44 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.imocha.testCases.TC_LoginTest_001@2d7275fc]" started-at="2023-04-04T12:15:31 IST" name="tearDown" finished-at="2023-04-04T12:15:31 IST" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
