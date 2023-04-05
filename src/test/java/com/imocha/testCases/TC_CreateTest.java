@@ -1,14 +1,29 @@
 package com.imocha.testCases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.imocha.pageObjects.LoginPage;
+
 
 public class TC_CreateTest extends BaseClass {
 	
 	@Test
-	public void createTest() {
+	public void createTest() throws InterruptedException, IOException {
+		
+		LoginPage lp = new LoginPage(driver);
+		driver.manage().window().maximize();
+		lp.setUserName(username);
+		lp.setPassword(password);
+		lp.clickSubmit();
+		logger.info("login successfully");
+		
+		Thread.sleep(5000);
 		
 		// Locating the Main Menu (Parent element)
 		WebElement myTest = driver.findElement(By.xpath("//span[normalize-space()='My Tests']"));
@@ -28,7 +43,15 @@ public class TC_CreateTest extends BaseClass {
 		//build()- used to compile all the actions into a single step 
 		actions.click().build().perform();
 		
-		logger.info("My Tests Opened");
+		boolean res = driver.getPageSource().contains("My Tests");
+		
+		if(res==true) {
+			Assert.assertTrue(true);
+		}
+		else {
+			captureScreen(driver,"createTest");
+			Assert.assertTrue(false);
+		}
 		
 	}
 	
