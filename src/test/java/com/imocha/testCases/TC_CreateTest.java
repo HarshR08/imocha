@@ -53,6 +53,23 @@ public class TC_CreateTest extends BaseClass {
 			Assert.assertTrue(false);
 		}
 		
+		driver.findElement(By.cssSelector("#btnCreateNewTest")).click();
+		logger.info("clicked on create new test");
+		Thread.sleep(5000);
+		
+		driver.findElement(By.cssSelector("div[id='section2'] div h3[class='mb-1 mt-1']")).click();
+		Thread.sleep(5000);
+		
+		driver.findElement(By.cssSelector("#TestName")).sendKeys("Image Proctoring");
+		Thread.sleep(5000);
+		logger.info("entered name");
+		
+		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/button[1]")).click();
+		logger.info("clicked create test");
+		
+		Thread.sleep(10000);
+		
+		
 	}
 	
 
