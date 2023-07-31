@@ -5,13 +5,12 @@
     <listener class-name="com.imocha.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="imocha Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="com.imocha.testCases.TC_CreateTest">
         <methods>
           <include name="createTest"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.imocha.testCases.TC_CreateTest -->
     </classes>

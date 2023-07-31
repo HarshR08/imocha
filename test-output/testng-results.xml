@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-13T15:50:40 IST" name="imocha" finished-at="2023-06-13T15:51:16 IST" duration-ms="36201">
+  <suite started-at="2023-07-31T21:15:35 IST" name="imocha" finished-at="2023-07-31T21:16:43 IST" duration-ms="67744">
     <groups>
     </groups>
-    <test started-at="2023-06-13T15:50:40 IST" name="imocha Test" finished-at="2023-06-13T15:51:16 IST" duration-ms="36201">
+    <test started-at="2023-07-31T21:15:35 IST" name="imocha Test" finished-at="2023-07-31T21:16:43 IST" duration-ms="67744">
       <class name="com.imocha.testCases.TC_CreateTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.imocha.testCases.TC_CreateTest@595b007d]" started-at="2023-06-13T15:50:40 IST" name="setup" finished-at="2023-06-13T15:50:44 IST" duration-ms="4084" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.imocha.testCases.TC_CreateTest@595b007d]" started-at="2023-07-31T21:15:35 IST" name="setup" finished-at="2023-07-31T21:15:39 IST" duration-ms="4014" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createTest()[pri:0, instance:com.imocha.testCases.TC_CreateTest@595b007d]" started-at="2023-06-13T15:50:44 IST" name="createTest" finished-at="2023-06-13T15:51:16 IST" duration-ms="31934" status="PASS">
+        <test-method signature="createTest()[pri:0, instance:com.imocha.testCases.TC_CreateTest@595b007d]" started-at="2023-07-31T21:15:39 IST" name="createTest" finished-at="2023-07-31T21:16:43 IST" duration-ms="63584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->

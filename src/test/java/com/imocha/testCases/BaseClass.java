@@ -10,6 +10,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -44,6 +46,12 @@ public class BaseClass {
 		else if (br.equals("firefox")) {
 			System.setProperty("driver.gecko.driver", readconfig.getFirefoxPath());
 			driver = new FirefoxDriver();
+		}
+		else if (br.equals("edge")) {
+			System.setProperty("driver.edge.driver", readconfig.getEdgePath());
+			EdgeOptions options = new EdgeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new EdgeDriver(options);
 		}
 		driver.get(baseURL);
 	}

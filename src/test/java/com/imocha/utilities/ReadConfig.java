@@ -45,4 +45,9 @@ public class ReadConfig {
 		return firefoxpath;
 	}
 
+	public String getEdgePath() {
+		String edgePath = pro.getProperty("edgePath");
+		return edgePath;
+	}
+
 }
