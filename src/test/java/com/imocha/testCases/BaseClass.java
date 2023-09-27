@@ -39,9 +39,9 @@ public class BaseClass {
 
 		if(br.equals("chrome")) {
 			System.setProperty("driver.chrome.driver", readconfig.getChromePath());
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--remote-allow-origins=*");
-			driver = new ChromeDriver(options);
+//			ChromeOptions options = new ChromeOptions();
+//			options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver();
 		}
 		else if (br.equals("firefox")) {
 			System.setProperty("driver.gecko.driver", readconfig.getFirefoxPath());
@@ -51,6 +51,7 @@ public class BaseClass {
 			System.setProperty("driver.edge.driver", readconfig.getEdgePath());
 			EdgeOptions options = new EdgeOptions();
 			options.addArguments("--remote-allow-origins=*");
+			options.setExperimentalOption("useAutomationExtension", false);
 			driver = new EdgeDriver(options);
 		}
 		driver.get(baseURL);

@@ -116,6 +116,16 @@ public class TC_CreateTest extends BaseClass {
 		
 		driver.findElement(By.cssSelector("#btnCreateLink")).click();
 		
+		if(driver.getTitle().equals("EditTest")) {
+		     Assert.assertTrue(true);
+		     logger.info("CreateTest passed");
+		}
+		 else {
+		     captureScreen(driver, "loginTest");
+		     Assert.assertTrue(false);
+		     logger.info("CreateTest failed");
+		 }
+		
 	}
 	
 
