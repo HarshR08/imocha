@@ -1,14 +1,13 @@
 package com.imocha.testCases;
 
 import java.io.IOException;
-import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.openqa.selenium.support.ui.Select;
+
 
 import com.imocha.pageObjects.LoginPage;
 
@@ -21,18 +20,20 @@ public class TC_CreateTest extends BaseClass {
 		LoginPage lp = new LoginPage(driver);
 		driver.manage().window().maximize();
 		lp.setUserName(username);
+		lp.clickContinue();
+		Thread.sleep(5000);
 		lp.setPassword(password);
 		lp.clickSubmit();
 		logger.info("login successfully");
 		
 		Thread.sleep(5000);
-		driver.findElement(By.cssSelector("#DismissModal")).click();
-		Thread.sleep(5000);
+//		driver.findElement(By.cssSelector("#DismissModal")).click();
+//		Thread.sleep(5000);
 		WebElement myTest = driver.findElement(By.xpath("//span[normalize-space()='My Tests']")); // Locating the Main Menu (Parent element)
 
 		Actions actions = new Actions(driver); //Instantiating Actions class
 		actions.moveToElement(myTest); //Hovering on main menu
-		WebElement subMenu = driver.findElement(By.xpath("//li[@id='lnkMytestmenu']//a[normalize-space()='My Tests']")); // Locating the element from Sub Menu
+		WebElement subMenu = driver.findElement(By.xpath("//ul[@class='nav']//li[@id='lnkMyTests']//ul//a[normalize-space()='My Tests']")); // Locating the element from Sub Menu
 		actions.moveToElement(subMenu);
 
 		actions.click().build().perform(); //build()- used to compile all the actions into a single step 
