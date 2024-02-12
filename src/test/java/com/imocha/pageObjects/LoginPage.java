@@ -22,11 +22,15 @@ public class LoginPage {
     @FindBy(xpath="//input[@id='Password']")
     @CacheLookup
     WebElement txtPassword;
+    
+    @FindBy(xpath="//input[@id='frmSubmitBtn']")
+    @CacheLookup
+    WebElement btnContinue;
 
     @FindBy(xpath="//input[@value='Login']")
     @CacheLookup
     WebElement btnLogin;
-
+    
     public void setUserName(String uname)
     {
         txtUserName.sendKeys(uname);
@@ -36,10 +40,16 @@ public class LoginPage {
     {
     	txtPassword.sendKeys(pwd);
     }
+    
+    public void clickContinue()
+    {
+    	btnContinue.click();
+    }
 
     public void clickSubmit()
     {
     	btnLogin.click();
     }
+    
 
 }
