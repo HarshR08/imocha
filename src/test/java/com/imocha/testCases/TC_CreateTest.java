@@ -103,6 +103,7 @@ public class TC_CreateTest extends BaseClass {
 		logger.info("publish button clicked");
 		
 		driver.findElement(By.cssSelector("#publish-test-yes")).click();
+		Thread.sleep(5000);
 		
 		driver.findElement(By.cssSelector("#InviteCandidatesTab")).click();
 		Thread.sleep(3000);

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T11:34:12 IST" name="imocha" finished-at="2024-02-12T11:35:19 IST" duration-ms="66714">
+  <suite started-at="2024-02-14T17:23:26 IST" name="iMocha - TA" finished-at="2024-02-14T17:24:35 IST" duration-ms="68777">
     <groups>
     </groups>
-    <test started-at="2024-02-12T11:34:12 IST" name="imocha Test" finished-at="2024-02-12T11:35:19 IST" duration-ms="66714">
+    <test started-at="2024-02-14T17:23:26 IST" name="imocha Test" finished-at="2024-02-14T17:24:35 IST" duration-ms="68777">
       <class name="com.imocha.testCases.TC_CreateTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.imocha.testCases.TC_CreateTest@5c5eefef]" started-at="2024-02-12T11:34:12 IST" name="setup" finished-at="2024-02-12T11:34:16 IST" duration-ms="4068" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.imocha.testCases.TC_CreateTest@460f76a6]" started-at="2024-02-14T17:23:26 IST" name="setup" finished-at="2024-02-14T17:23:30 IST" duration-ms="3372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createTest()[pri:0, instance:com.imocha.testCases.TC_CreateTest@5c5eefef]" started-at="2024-02-12T11:34:16 IST" name="createTest" finished-at="2024-02-12T11:35:19 IST" duration-ms="62506" status="PASS">
+        <test-method signature="createTest()[pri:0, instance:com.imocha.testCases.TC_CreateTest@460f76a6]" started-at="2024-02-14T17:23:30 IST" name="createTest" finished-at="2024-02-14T17:24:35 IST" duration-ms="65009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.imocha.testCases.TC_CreateTest@460f76a6]" started-at="2024-02-14T17:24:35 IST" name="tearDown" finished-at="2024-02-14T17:24:35 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.imocha.testCases.TC_CreateTest -->
     </test> <!-- imocha Test -->
-  </suite> <!-- imocha -->
+  </suite> <!-- iMocha - TA -->
 </testng-results>
