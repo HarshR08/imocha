@@ -54,16 +54,17 @@ public class BaseClass {
 		driver.get(baseURL);
 	}
 
-//	@AfterClass
-//	public void tearDown() {
-//		driver.quit();
-//	}
+	@AfterClass
+	public void tearDown() {
+		driver.quit();
+	}
 	
 	public void captureScreen(WebDriver driver, String tname) throws IOException{
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
-
+		
+		System.out.println("user.dir");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot Taken");
 	}
