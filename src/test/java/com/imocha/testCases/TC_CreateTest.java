@@ -27,8 +27,6 @@ public class TC_CreateTest extends BaseClass {
 		logger.info("login successfully");
 		
 		Thread.sleep(5000);
-//		driver.findElement(By.cssSelector("#DismissModal")).click();
-//		Thread.sleep(5000);
 		WebElement myTest = driver.findElement(By.xpath("//span[normalize-space()='My Tests']")); // Locating the Main Menu (Parent element)
 
 		Actions actions = new Actions(driver); //Instantiating Actions class
@@ -104,29 +102,39 @@ public class TC_CreateTest extends BaseClass {
 		
 		driver.findElement(By.cssSelector("#publish-test-yes")).click();
 		Thread.sleep(5000);
+		logger.info("Publish test clicked");
 		
 		driver.findElement(By.cssSelector("#InviteCandidatesTab")).click();
 		Thread.sleep(3000);
+		logger.info("Invite tab clicked");
 		
 		driver.findElement(By.xpath("//u[@id='btnCreateNewLink']")).click();
 		Thread.sleep(3000);
+		logger.info("Create new link clicked");
 		
 		driver.findElement(By.cssSelector("#LinkName")).sendKeys("New Link");
 		Thread.sleep(3000);
 		
 		driver.findElement(By.cssSelector("input[value='0']")).click();
+		logger.info("Open Link radio button clicked");
 		
 		driver.findElement(By.cssSelector("#btnCreateLink")).click();
+		Thread.sleep(3000);
+		logger.info("Save button clicked");
 		
-		if(driver.getTitle().equals("EditTest")) {
-		     Assert.assertTrue(true);
-		     logger.info("CreateTest passed");
-		}
-		 else {
-		     captureScreen(driver, "loginTest");
-		     Assert.assertTrue(false);
-		     logger.info("CreateTest failed");
-		 }
+        // Check if the expected text is present in the modal
+        String modalText = driver.findElement(By.cssSelector("div[id='inviteDemo'] div[class='modal-content']")).getText();
+        boolean isTextPresent = modalText.contains("Test link");
+
+        // Example assertion based on modal text
+        if (isTextPresent) {
+            Assert.assertTrue(true);
+            logger.info("Modal text assertion passed");
+        } else {
+            captureScreen(driver, "createTest");
+            Assert.assertTrue(false);
+            logger.info("Modal text assertion failed");
+        }
 		
 	}
 	

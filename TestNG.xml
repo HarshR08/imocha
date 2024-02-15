@@ -10,7 +10,7 @@
     <test name= "imocha Test">
         <parameter name= "browser" value= "chrome" />
         <classes>
-             <!-- class name= "com.imocha.testCases.TC_LoginTest_001"/-->
+             <class name= "com.imocha.testCases.TC_LoginTest_001"/>
              <class name= "com.imocha.testCases.TC_CreateTest"/>
         </classes>
     </test>

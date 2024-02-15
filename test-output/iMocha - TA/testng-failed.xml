@@ -7,13 +7,13 @@
   <test thread-count="5" name="imocha Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.imocha.testCases.TC_CreateTest">
+      <class name="com.imocha.testCases.TC_LoginTest_001">
         <methods>
-          <include name="createTest"/>
+          <include name="loginTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.imocha.testCases.TC_CreateTest -->
+      </class> <!-- com.imocha.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- imocha Test(failed) -->
 </suite> <!-- Failed suite [iMocha - TA] -->
