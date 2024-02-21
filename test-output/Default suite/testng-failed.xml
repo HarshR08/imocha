@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.imocha.testCases.TC_CreateTest">
+      <class name="com.imocha.testCases.TC_CreateMyQuestion">
         <methods>
-          <include name="createTest"/>
+          <include name="createMyQuestion"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.imocha.testCases.TC_CreateTest -->
+      </class> <!-- com.imocha.testCases.TC_CreateMyQuestion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
