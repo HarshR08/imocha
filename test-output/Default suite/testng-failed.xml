@@ -7,7 +7,6 @@
         <methods>
           <include name="createMyQuestion"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.imocha.testCases.TC_CreateMyQuestion -->
     </classes>
