@@ -8,8 +8,7 @@ public class ReadConfig {
 
 	Properties pro;
 
-	public ReadConfig()
-	{
+	public ReadConfig() {
 		File src = new File("./Configuration/config.properties");
 		try {
 			FileInputStream fis = new FileInputStream(src);
@@ -20,7 +19,7 @@ public class ReadConfig {
 		}
 	}
 
-	public String getApplicationURL() {	
+	public String getApplicationURL() {
 		String url = pro.getProperty("baseURL");
 		return url;
 	}
@@ -39,7 +38,7 @@ public class ReadConfig {
 		String chromepath = pro.getProperty("chromepath");
 		return chromepath;
 	}
-	
+
 	public String getFirefoxPath() {
 		String firefoxpath = pro.getProperty("firefoxpath");
 		return firefoxpath;
@@ -48,6 +47,16 @@ public class ReadConfig {
 	public String getEdgePath() {
 		String edgePath = pro.getProperty("edgePath");
 		return edgePath;
+	}
+
+	public String getCandName() {
+		String candname = pro.getProperty("candname");
+		return candname;
+	}
+
+	public String getEmail() {
+		String email = pro.getProperty("email");
+		return email;
 	}
 
 }

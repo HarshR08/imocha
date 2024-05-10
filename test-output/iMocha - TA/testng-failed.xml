@@ -5,15 +5,14 @@
     <listener class-name="com.imocha.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="imocha Test(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.imocha.testCases.TC_LoginTest_001">
+      <class name="com.imocha.testCases.TC_ImageProctoredTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="IPTest"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.imocha.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.imocha.testCases.TC_ImageProctoredTest -->
     </classes>
   </test> <!-- imocha Test(failed) -->
 </suite> <!-- Failed suite [iMocha - TA] -->

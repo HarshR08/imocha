@@ -13,7 +13,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
@@ -26,6 +25,9 @@ public class BaseClass {
 	public String username = readconfig.getUername();
 	public String password = readconfig.getPassword();
 	public String firefoxpath = readconfig.getFirefoxPath();
+	public String candname = readconfig.getCandName();
+	public String email = readconfig.getEmail();
+
 	public static WebDriver driver;
 
 	public static Logger logger;
@@ -53,10 +55,10 @@ public class BaseClass {
 		driver.get(baseURL);
 	}
 
-	@AfterClass
-	public void tearDown() {
-		driver.quit();
-	}
+//	@AfterClass
+//	public void tearDown() {
+//		driver.quit();
+//	}
 
 	public void captureScreen(WebDriver driver, String tname) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
