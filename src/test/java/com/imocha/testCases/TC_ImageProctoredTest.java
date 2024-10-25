@@ -16,7 +16,7 @@ public class TC_ImageProctoredTest extends BaseClass {
 	public void IPTest() throws InterruptedException, IOException {
 		TestPlatform lp1 = new TestPlatform(driver);
 
-		driver.get("https://test.imocha.io/AuthenticateKey?id=da0792e2f2");
+		driver.get("https://test.imocha.io/AuthenticateKey?id=d968bd55d4");
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 
@@ -40,5 +40,4 @@ public class TC_ImageProctoredTest extends BaseClass {
 		logger.info("authentication done");
 
 	}
-
 }
